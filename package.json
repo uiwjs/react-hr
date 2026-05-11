@@ -28,6 +28,8 @@
     "build": "npm run build:lib && npm run build:site",
     "build:lib": "vite build --config vite.config.ts && tsc -p tsconfig.build.json",
     "build:site": "vite build --config vite.site.config.ts",
+    "analyze:lib": "vite build --config vite.config.ts --mode analyze",
+    "analyze:site": "vite build --config vite.site.config.ts --mode analyze",
     "preview": "vite preview --config vite.site.config.ts"
   },
   "keywords": [
@@ -51,6 +53,7 @@
     "react": "^19.0.0",
     "react-code-preview-layout": "^3.1.5",
     "react-dom": "^19.0.0",
+    "rollup-plugin-visualizer": "^7.0.1",
     "typescript": "^5.9.0",
     "vite": "^7.0.0"
   }
