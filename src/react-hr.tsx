@@ -86,6 +86,8 @@ export function Hr({
   const baseStyle: CSSProperties = {
     boxSizing: 'border-box',
     border: 0,
+    height: 'inherit',
+    backgroundColor: 'initial',
     margin: `${blockMargin} 0`
   };
 
