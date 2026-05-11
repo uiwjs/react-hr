@@ -1,0 +1,53 @@
+{
+  "name": "@uiw/react-hr",
+  "version": "0.1.0",
+  "description": "A React divider component built on the native hr element.",
+  "type": "module",
+  "main": "./dist/react-hr.cjs",
+  "module": "./dist/react-hr.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/react-hr.js",
+      "require": "./dist/react-hr.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite --config vite.site.config.ts",
+    "build": "npm run build:lib && npm run build:site",
+    "build:lib": "vite build --config vite.config.ts && tsc -p tsconfig.build.json",
+    "build:site": "vite build --config vite.site.config.ts",
+    "preview": "vite preview --config vite.site.config.ts"
+  },
+  "keywords": [
+    "react",
+    "hr",
+    "divider",
+    "separator"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "@uiw/react-markdown-preview": "^5.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.0.0",
+    "@wcj/dark-mode": "^1.1.0",
+    "react": "^19.0.0",
+    "react-code-preview-layout": "^3.1.5",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.0.0"
+  }
+}
