@@ -1,6 +1,6 @@
 {
   "name": "@uiw/react-hr",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A React divider component built on the native hr element.",
   "type": "module",
   "main": "./dist/react-hr.cjs",
