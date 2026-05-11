@@ -242,7 +242,12 @@ export default function Example() {
       <Hr color="#1677ff" />
       <Hr variant="dashed" accentColor="#fa541c" />
       <Hr variant="mid-circle" color="#52c41a" multiple />
-      <Hr variant="solid-content" content="自定义颜色" color="#722ed1" accentColor="#722ed1" />
+      <Hr
+        variant="solid-content"
+        content="自定义颜色"
+        color="#722ed1"
+        accentColor="#722ed1"
+      />
     </>
   );
 }
