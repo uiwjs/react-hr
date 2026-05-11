@@ -2,6 +2,12 @@
   "name": "@uiw/react-hr",
   "version": "1.0.0",
   "description": "A React divider component built on the native hr element.",
+  "homepage": "https://uiwjs.github.io/react-hr/",
+  "author": "kenny wang <wowohoo@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uiwjs/react-hr.git"
+  },
   "type": "module",
   "main": "./dist/react-hr.cjs",
   "module": "./dist/react-hr.js",
@@ -35,13 +41,11 @@
     "react": ">=18",
     "react-dom": ">=18"
   },
-  "dependencies": {
-    "@uiw/react-markdown-preview": "^5.1.4"
-  },
   "devDependencies": {
     "@types/node": "^25.6.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "@uiw/react-markdown-preview": "^5.2.0",
     "@vitejs/plugin-react": "^5.0.0",
     "@wcj/dark-mode": "^1.1.0",
     "react": "^19.0.0",

@@ -25,7 +25,7 @@ jobs:
         uses: jaywcjlove/github-action-contributors@main
         with:
           filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
-          output: dist/CONTRIBUTORS.svg
+          output: www/CONTRIBUTORS.svg
           avatarSize: 42
 
       - name: Create Tag
@@ -45,7 +45,7 @@ jobs:
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: ${{steps.tag_version.outputs.tag}} ${{ github.event.head_commit.message }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./www
 
       - name: Generate Changelog
         id: changelog
