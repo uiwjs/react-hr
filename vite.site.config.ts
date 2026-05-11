@@ -5,6 +5,7 @@ import { markdownPreviewPlugin } from './vite.markdown-preview';
 const markdownDependencyPattern = /\/node_modules\/(?:@uiw\/react-markdown-preview|react-markdown|remark-|rehype-|micromark|mdast-|hast-|unist-|unified|vfile|property-information|decode-named-character-reference|html-url-attributes|space-separated-tokens|comma-separated-tokens|trim-lines|ccount|character-entities|character-reference-invalid|markdown-table|zwitch|bail|devlop|is-plain-obj)/;
 
 export default defineConfig({
+  base: './',
   plugins: [markdownPreviewPlugin(), react()],
   resolve: {
     alias: {
