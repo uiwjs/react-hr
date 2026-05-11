@@ -267,3 +267,17 @@ export default function Example() {
 | `margin` | `number \| string` | `1.25rem` | Vertical divider margin. |
 
 All native `<hr>` attributes are supported except `children`.
+
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<a href="https://github.com/uiwjs/react-hr/graphs/contributors">
+  <img src="https://uiwjs.github.io/react-hr/CONTRIBUTORS.svg" />
+</a>
+
+Made with [action-contributors](https://github.com/jaywcjlove/github-action-contributors).
+
+### License
+
+Licensed under the MIT License.
