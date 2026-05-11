@@ -1,6 +1,6 @@
 {
   "name": "@uiw/react-hr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React divider component built on the native hr element.",
   "homepage": "https://uiwjs.github.io/react-hr/",
   "author": "kenny wang <wowohoo@qq.com>",
