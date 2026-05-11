@@ -1,5 +1,6 @@
 import React from 'react';
 import { createRoot, type Root } from 'react-dom/client';
+import GithubCorner from '@uiw/react-github-corners';
 import MarkdownPreview from '@uiw/react-markdown-preview';
 import { codes, markdown, previews } from '../../README.md?preview';
 import './site.css';
@@ -44,6 +45,7 @@ function CodeBlock({ inline, className, children, node, ...props }: any) {
 function App() {
   return (
     <main className="site-shell">
+      <GithubCorner fixed target="__blank" zIndex={99999} href="https://github.com/uiwjs/react-hr" />
       <dark-mode permanent light="Light" dark="Dark"></dark-mode>
       <MarkdownPreview
         source={markdown}
